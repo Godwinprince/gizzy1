@@ -1,0 +1,152 @@
+html, body{
+  font-size: 11.7px;
+line-height: 1.42857143;
+color: #333;
+word-wrap: break-word;
+}
+
+ul{
+  list-style-type: none;
+}
+.mother, .container{
+  width: 100%;
+}
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.header{
+  border-bottom: 1px solid #ebebeb;
+  width: 100%;
+}
+
+.left_header{
+float: left;
+width: 30%;
+/*background-color: green;*/
+}
+
+.middle_header{
+  float: left;
+width: 35%;
+}
+
+.right_header{
+  float: left;
+width: 35%;
+/*background-color: red;*/
+}
+.bottom_header{
+  padding-bottom: 20px;
+}
+.bottom_header ul li{
+  float: left;
+  margin-left: 1%;
+  /*padding: 10px 10px;*/
+}
+.img_social{
+  width: 18px;
+}
+.sel-li{
+  width: 15%;
+}
+.inp-ser{
+  width: 45%;
+}
+.ser-btn{
+  width: 10%;
+}
+.bottom_header{
+  width: 80%;
+float: right;
+margin-right: 80px;
+}
+.bottom_header select{
+  position: relative;
+display: inline-block;
+border: 1px solid #aaa;
+border-radius: 4px 4px 4px 4px;
+margin: 4px 5px 0px 0px;
+width: 100%;
+box-shadow: none;
+min-width: 98px;
+vertical-align: top;
+overflow: visible;
+float: right;
+background: -moz-linear-gradient(center top , white, rgb(255, 252, 255)) repeat scroll 0% 0% transparent;
+height: 40px;
+color: #9f9db1;
+font-size: 14px;
+}
+
+.search-input{
+/*width: 75%;*/
+width: 100%;
+height: 40px;
+border-width: thin;
+border: 1px solid #aaa;
+/*padding-left: 102px;*/
+/*margin-top: 10px;*/
+border-radius: 4px;
+color: #5b596e;
+font-size: 14px;
+}
+
+.search-button{
+  border: 0px none;
+border-radius: 4px;
+color: white;
+display: inline-block;
+font: 14px/1.8em Tahoma,sans-serif !important;
+font-weight: normal;
+font-size: 14px;
+height: 40px;
+margin: 4px 15px 0px 0px;
+padding: 0px 15px;
+text-decoration: none;
+vertical-align: top;
+width: 70%;
+background: none repeat scroll 0% 0% #2196f3;
+text-align: center;
+font-size: 14px !important;
+font-weight: 500 !important;
+}
+.top_header{
+      padding: 20px 20px;
+}
+.own_a_store{
+float: right;
+margin-top: 0px !important;
+background: #118d2c;
+padding: 5px 5px;
+font-weight: 400;
+font-size: 14px;
+}
+.own_a_store a{
+  color: #ededed;
+}
+
+.right_header ul li{
+  float: left;
+  padding: 1%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.right_header ul li{
+color: #fff;
+font-size: 1.1em;
+/*margin: 0 2em 0 0;*/
+text-decoration: none;
+color: #fff;
+font-size: 1.1em;
+/*margin: 1em 1em 1em 1em;*/
+/*padding: 7px;*/
+padding-left: 35px;
+border-radius: 4px;
+font-weight: bold;
+}
